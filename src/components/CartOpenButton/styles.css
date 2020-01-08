@@ -1,4 +1,5 @@
 .CartButton {
+    padding: 10;
     font-size: 20px;
     background-color: white;
     border: 0px solid white;
@@ -7,7 +8,29 @@
     justify-content: center;
     align-items: center;
     right: 10px;
-    top: 40px;
+    top: 21px;
     /* top: 30%;  */
     cursor: pointer;
 }
+
+.cartItemCounter{
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    z-index: 2;
+    right: 32%;
+    top: 8%;
+    position: absolute;
+    text-align: center;
+    float: right;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+  }
+  @media(max-width: 500px){
+    .cartItemCounter{
+      right: 17%;
+    }
+  }

@@ -139,8 +139,7 @@ class App extends React.Component {
               this.removeItemHandler(props)}}
           /> : null }
           <header style={{ width: '100%', height: 100, justifyContent: 'center', alignItems: 'center', backgroundColor: '#012323'}}>
-              <div class="cartItemCounter">{this.state.itemsInCart.length}</div>
-              <CartOpenButton clicked={this.openCartBoxHandler}/>
+              <CartOpenButton itemCount={this.state.itemsInCart.length} clicked={this.openCartBoxHandler}/>
           </header>
           <div class="main">
             <div class="left">
