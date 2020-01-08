@@ -1,0 +1,17 @@
+.checkout-btn{
+    float: right;
+    margin-bottom: 5%;
+    margin-right: 6%;
+}
+
+.cartModal{
+    overflow: scroll;
+    background-color: #F2F4F4;
+    width: 70%;
+    height: 90%;
+    position: fixed;
+    z-index: 3;
+    right: 15%;
+    top: 5%;
+}
+

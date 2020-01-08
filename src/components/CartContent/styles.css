@@ -1,0 +1,41 @@
+.cartContent{
+    background-image: linear-gradient(#2980B9, #5499C7, #A9CCE3);
+    border: 1px solid #BDC3C7;
+    box-shadow: 0 1px 2px black;
+    width: 90%;
+    height: 10%;
+    margin: 5% 4%;
+}
+
+.cartContentRight{
+    display: flex;
+    padding: 4px;
+    width: 100%;
+}
+
+.right-img{
+    margin: 4px;
+    width: 10%;
+    height: 5%;
+}
+
+.info{
+    color: #012323;
+    margin-left: 6px;
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: column;
+}
+
+.removeBtn{
+    color: white;
+    background-color: #012323;
+    border: 0px solid black;
+    width: 80px;
+    cursor: pointer;
+}
+  .removeBtn:hover{
+    background-color: #F4D03F;
+}
+
+

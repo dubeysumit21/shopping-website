@@ -1,0 +1,43 @@
+.item{
+    width: 250px;
+    height: 600px;
+    border: 1px solid white;
+    margin: 14px;
+  }
+  .item:hover{
+    border: 1px solid #CFD1D1;
+    cursor: pointer;
+  }
+
+  .img{
+    margin-top: 15px;
+    width: 250px;
+    height: 350px;
+  }
+
+  .p1{
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  .sizesAvailable-container{
+    display: flex;
+    padding-left: 56px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .btn{
+    display: block;
+    width: 180px;
+    height: 50px;
+    background-color: #012323;
+    color: white;
+    border: 0px;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: #F4D03F;
+  }
+  

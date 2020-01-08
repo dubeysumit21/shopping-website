@@ -1,0 +1,16 @@
+.sortButton{
+    margin-top: 10px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #CFD1D1;
+    border-radius: 9px;
+  }
+  .sortButton:Hover{
+    color: white;
+    background-color: #012323;
+    cursor: pointer;
+    transform: sacle(0.8)
+  }

@@ -1,0 +1,17 @@
+.sizesAvailable {
+    display: block;
+    margin: 3px;
+    border: 0px solid #CFD1D1;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: #CFD1D1;
+    border-radius: 50%;
+  }
+  .sizesAvailable:hover{
+    background-color: #012323;
+    color: white;
+    transform: scale(1.2);
+  }

@@ -1,0 +1,24 @@
+.finalCartStatus{
+    display: flex;
+    font-family: sans-serif;
+    background-image: linear-gradient(#2980B9, #5499C7, #A9CCE3);
+    border: 1px solid #BDC3C7;
+    box-shadow: 0 1px 2px black;
+    width: 90%;
+    height: 10%;
+    margin: 5% 4%;
+}
+
+.finalCartStatusLeft{
+    margin: 1%;
+    width: 80%;
+    text-align: right;
+}
+
+.finalCartStatusRight{
+    margin-top: 1%;
+    margin-right: 2%;
+    width: 20%;
+    text-align: right;
+}
+
