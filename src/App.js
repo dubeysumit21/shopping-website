@@ -10,39 +10,39 @@ class App extends React.Component {
 
   state = {
     itemArray : [
-      {id : '1', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/12064273040195392_1.2995d79a.jpg', name:'Cat Tee Black T-Shirt', price: '799', size: ['XS', 'S', 'ML'], quantity : 1},
-      {id : '2', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/51498472915966370_1.df947f14.jpg', name:'Dark Thug Blue-Navy T-Shirt', price: '899', size: ['XS', 'XXL', 'L'], quantity : 1}, 
-      {id : '3', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/10686354557628304_1.0d941b4c.jpg', name:'Sphynx Tie Dye Wine T-Shirt', price: '799', size: ['M', 'S', 'XL'], quantity : 1},
-      {id : '4', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11033926921508488_1.84c82a5a.jpg', name:'Skuul', price: '799', size: ['XS', 'S', 'XXL'], quantity : 1}, 
-      {id : '5', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/39876704341265610_1.a313534c.jpg', name:'Wine Skul T-Shirt', price: '799', size: ['XS', 'XL', 'ML'], quantity : 1}, 
-      {id : '6', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/8552515751438644_1.87b5353e.jpg', name:'Cat Tee Black T-Shirt', price: '1099', size: ['S', 'M', 'L'], quantity : 1}, 
-      {id : '7', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/18644119330491310_1.75f51cec.jpg', name:'Sphynx Tie Dye Grey T-Shirt', price: '1299', size: ['XS', 'S', 'ML'], quantity : 1}, 
-      {id : '8', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11854078013954528_1.7faf6a31.jpg', name:'Danger Knife Grey', price: '899', size: ['S', 'M', 'L'], quantity : 1}, 
-      {id : '9', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/876661122392077_1.df97d7c2.jpg', name:'White DGK Script Tee', price: '999', size: ['XS', 'XXL', 'ML'], quantity : 1}, 
-      {id : '10', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/9197907543445676_1.59b64365.jpg', name:'Born On The Streets', price: '999', size: ['XS', 'S', 'M'], quantity : 1}, 
-      {id : '11', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/10547961582846888_1.54fbf816.jpg', name:'Tso 3D Short Sleeve T-Shirt A', price: '999', size: ['XS', 'XXL', 'L'], quantity : 1}, 
-      {id : '12', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/6090484789343891_1.45a051e0.jpg', name:'Man Tie Dye Cinza Grey T-Shirt', price: '999', size: ['S', 'M', 'L'], quantity : 1}, 
-      {id : '13', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/18532669286405344_1.d78e2790.jpg', name:'Crazy Monkey Black T-Shirt', price: '999', size: ['XS', 'M', 'ML'], quantity : 1}, 
-      {id : '14', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/5619496040738316_1.843a4713.jpg', name:'Tso 3D Black T-Shirt', price: '899', size: ['L', 'S', 'XXL'], quantity : 1}, 
-      {id : '15', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11600983276356164_1.06ec2c62.jpg', name:'Crazy Monkey Grey', price: '799', size: ['XS', 'M', 'ML'], quantity : 1}, 
-      {id : '16', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/27250082398145996_1.4c799bac.jpg', name:'On The Streets Black T-Shirt', price: '799', size: ['XXL', 'S', 'ML'], quantity : 1}],
+      {id : '1', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/12064273040195392_1.2995d79a.jpg', name:'Cat Tee Black T-Shirt', price: '799', size: ['XS', 'S', 'ML'], quantity : 1, display: true, heartSelected: false},
+      {id : '2', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/51498472915966370_1.df947f14.jpg', name:'Dark Thug Blue-Navy T-Shirt', price: '899', size: ['XS', 'XXL', 'L'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '3', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/10686354557628304_1.0d941b4c.jpg', name:'Sphynx Tie Dye Wine T-Shirt', price: '799', size: ['M', 'S', 'XL'], quantity : 1, display: true, heartSelected: false},
+      {id : '4', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11033926921508488_1.84c82a5a.jpg', name:'Skuul', price: '799', size: ['XS', 'S', 'XXL'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '5', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/39876704341265610_1.a313534c.jpg', name:'Wine Skul T-Shirt', price: '799', size: ['XS', 'XL', 'ML'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '6', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/8552515751438644_1.87b5353e.jpg', name:'Cat Tee Black T-Shirt', price: '1099', size: ['S', 'M', 'L'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '7', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/18644119330491310_1.75f51cec.jpg', name:'Sphynx Tie Dye Grey T-Shirt', price: '1299', size: ['XS', 'S', 'ML'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '8', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11854078013954528_1.7faf6a31.jpg', name:'Danger Knife Grey', price: '899', size: ['S', 'M', 'L'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '9', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/876661122392077_1.df97d7c2.jpg', name:'White DGK Script Tee', price: '999', size: ['XS', 'XXL', 'ML'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '10', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/9197907543445676_1.59b64365.jpg', name:'Born On The Streets', price: '999', size: ['XS', 'S', 'M'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '11', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/10547961582846888_1.54fbf816.jpg', name:'Tso 3D Short Sleeve T-Shirt A', price: '999', size: ['XS', 'XXL', 'L'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '12', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/6090484789343891_1.45a051e0.jpg', name:'Man Tie Dye Cinza Grey T-Shirt', price: '999', size: ['S', 'M', 'L'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '13', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/18532669286405344_1.d78e2790.jpg', name:'Crazy Monkey Black T-Shirt', price: '999', size: ['XS', 'M', 'ML'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '14', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/5619496040738316_1.843a4713.jpg', name:'Tso 3D Black T-Shirt', price: '899', size: ['L', 'S', 'XXL'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '15', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11600983276356164_1.06ec2c62.jpg', name:'Crazy Monkey Grey', price: '799', size: ['XS', 'M', 'ML'], quantity : 1, display: true, heartSelected: false}, 
+      {id : '16', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/27250082398145996_1.4c799bac.jpg', name:'On The Streets Black T-Shirt', price: '799', size: ['XXL', 'S', 'ML'], quantity : 1, display: true, heartSelected: false}],
     tempItemArray : [
-      {id : '1', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/12064273040195392_1.2995d79a.jpg', name:'Cat Tee Black T-Shirt', price: '799', size: ['XS', 'S', 'ML'], quantity : 0},
-      {id : '2', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/51498472915966370_1.df947f14.jpg', name:'Dark Thug Blue-Navy T-Shirt', price: '899', size: ['XS', 'XXL', 'L'], quantity : 0}, 
-      {id : '3', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/10686354557628304_1.0d941b4c.jpg', name:'Sphynx Tie Dye Wine T-Shirt', price: '799', size: ['M', 'S', 'XL'], quantity : 0},
-      {id : '4', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11033926921508488_1.84c82a5a.jpg', name:'Skuul', price: '799', size: ['XS', 'S', 'XXL'], quantity : 0}, 
-      {id : '5', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/39876704341265610_1.a313534c.jpg', name:'Wine Skul T-Shirt', price: '799', size: ['XS', 'XL', 'ML'], quantity : 0}, 
-      {id : '6', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/8552515751438644_1.87b5353e.jpg', name:'Cat Tee Black T-Shirt', price: '1099', size: ['S', 'M', 'L'], quantity : 0}, 
-      {id : '7', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/18644119330491310_1.75f51cec.jpg', name:'Sphynx Tie Dye Grey T-Shirt', price: '1299', size: ['XS', 'S', 'ML'], quantity : 0}, 
-      {id : '8', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11854078013954528_1.7faf6a31.jpg', name:'Danger Knife Grey', price: '899', size: ['S', 'M', 'L'], quantity : 0}, 
-      {id : '9', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/876661122392077_1.df97d7c2.jpg', name:'White DGK Script Tee', price: '999', size: ['XS', 'XXL', 'ML'], quantity : 0}, 
-      {id : '10', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/9197907543445676_1.59b64365.jpg', name:'Born On The Streets', price: '999', size: ['XS', 'S', 'M'], quantity : 0}, 
-      {id : '11', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/10547961582846888_1.54fbf816.jpg', name:'Tso 3D Short Sleeve T-Shirt A', price: '999', size: ['XS', 'XXL', 'L'], quantity : 0}, 
-      {id : '12', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/6090484789343891_1.45a051e0.jpg', name:'Man Tie Dye Cinza Grey T-Shirt', price: '999', size: ['S', 'M', 'L'], quantity : 0}, 
-      {id : '13', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/18532669286405344_1.d78e2790.jpg', name:'Crazy Monkey Black T-Shirt', price: '999', size: ['XS', 'M', 'ML'], quantity : 0}, 
-      {id : '14', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/5619496040738316_1.843a4713.jpg', name:'Tso 3D Black T-Shirt', price: '899', size: ['L', 'S', 'XXL'], quantity : 0}, 
-      {id : '15', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11600983276356164_1.06ec2c62.jpg', name:'Crazy Monkey Grey', price: '799', size: ['XS', 'M', 'ML'], quantity : 0}, 
-      {id : '16', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/27250082398145996_1.4c799bac.jpg', name:'On The Streets Black T-Shirt', price: '799', size: ['XXL', 'S', 'ML'], quantity : 0}
+      {id : '1', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/12064273040195392_1.2995d79a.jpg', name:'Cat Tee Black T-Shirt', price: '799', size: ['XS', 'S', 'ML'], quantity : 0, display: true, heartSelected: false},
+      {id : '2', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/51498472915966370_1.df947f14.jpg', name:'Dark Thug Blue-Navy T-Shirt', price: '899', size: ['XS', 'XXL', 'L'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '3', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/10686354557628304_1.0d941b4c.jpg', name:'Sphynx Tie Dye Wine T-Shirt', price: '799', size: ['M', 'S', 'XL'], quantity : 0,display: true, heartSelected: false},
+      {id : '4', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11033926921508488_1.84c82a5a.jpg', name:'Skuul', price: '799', size: ['XS', 'S', 'XXL'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '5', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/39876704341265610_1.a313534c.jpg', name:'Wine Skul T-Shirt', price: '799', size: ['XS', 'XL', 'ML'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '6', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/8552515751438644_1.87b5353e.jpg', name:'Cat Tee Black T-Shirt', price: '1099', size: ['S', 'M', 'L'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '7', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/18644119330491310_1.75f51cec.jpg', name:'Sphynx Tie Dye Grey T-Shirt', price: '1299', size: ['XS', 'S', 'ML'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '8', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11854078013954528_1.7faf6a31.jpg', name:'Danger Knife Grey', price: '899', size: ['S', 'M', 'L'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '9', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/876661122392077_1.df97d7c2.jpg', name:'White DGK Script Tee', price: '999', size: ['XS', 'XXL', 'ML'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '10', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/9197907543445676_1.59b64365.jpg', name:'Born On The Streets', price: '999', size: ['XS', 'S', 'M'], quantity : 0,display: true, heartSelected: false}, 
+      {id : '11', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/10547961582846888_1.54fbf816.jpg', name:'Tso 3D Short Sleeve T-Shirt A', price: '999', size: ['XS', 'XXL', 'L'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '12', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/6090484789343891_1.45a051e0.jpg', name:'Man Tie Dye Cinza Grey T-Shirt', price: '999', size: ['S', 'M', 'L'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '13', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/18532669286405344_1.d78e2790.jpg', name:'Crazy Monkey Black T-Shirt', price: '999', size: ['XS', 'M', 'ML'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '14', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/5619496040738316_1.843a4713.jpg', name:'Tso 3D Black T-Shirt', price: '899', size: ['L', 'S', 'XXL'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '15', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/11600983276356164_1.06ec2c62.jpg', name:'Crazy Monkey Grey', price: '799', size: ['XS', 'M', 'ML'], quantity : 0, display: true, heartSelected: false}, 
+      {id : '16', img : 'https://react-shopping-cart-67954.firebaseapp.com/static/media/27250082398145996_1.4c799bac.jpg', name:'On The Streets Black T-Shirt', price: '799', size: ['XXL', 'S', 'ML'], quantity : 0, display: true, heartSelected: false}
     ],
     cartButton : false,
     itemsInCart : [],
@@ -121,11 +121,66 @@ class App extends React.Component {
     });
   }
 
+  gallerySetter = id => {
+    const newArr = [ ...this.state.tempItemArray ];
+    const setArray = newArr.map(x => {
+      if (x.id === id) {
+        return {
+          ...x,
+          display: false,
+        };
+      } else {
+        return {
+          ...x,
+          display: true,
+        }
+      }
+    });
+    this.setState({ tempItemArray: [...setArray] });
+  }
+
+  itemSetter = id => {
+    const newArr = [ ...this.state.tempItemArray ];
+    const setArray = newArr.map(x => {
+      if (x.id === id) {
+        return {
+          ...x,
+          display: true,
+        };
+      } else {
+        return {
+          ...x,
+          display: true,
+        }
+      }
+    });
+    this.setState({ tempItemArray: [...setArray] });
+  }
+
+  heartChangeHandler = id => {
+    console.info('id', id);
+    const newArr = [ ...this.state.tempItemArray ];
+    const setArray = newArr.map(x => {
+      const heartSelected = x.heartSelected;
+      if(x.id === id) {
+        return {
+          ...x,
+          heartSelected: !heartSelected,
+        };
+      } else {
+        return {
+          ...x
+        };
+      }
+    });
+    this.setState({ tempItemArray: [...setArray] });
+  } 
+
   render(){
     const { cartButton } = this.state;
     const sizeArray = [{id : 'XS'},{id : 'S'},{id : 'M'},{id : 'ML'},{id : 'L'},{id : 'XL'},{id : 'XXL'}];
     const sizes = sizeArray.map((x) => <SizeChart item={x.id} clicked={() => this.selectedItemHandler(x.id)}/>);
-    const items = this.state.tempItemArray.map((x, index) => <IndividualItem item={x.img} name={x.name} price={x.price} size={x.size} clicked1={() => {
+    const items = this.state.tempItemArray.map((x, index) => <IndividualItem itemSetter={this.itemSetter} heartSelected={x.heartSelected} heartChangeHandler={this.heartChangeHandler} gallerySetter={this.gallerySetter} display={x.display} id={x.id} item={x.img} name={x.name} price={x.price} size={x.size} clicked1={() => {
         this.increaseItemHandler(index) 
         this.addItemInCartHandler(x)
       }}
