@@ -3,7 +3,7 @@ import './styles.css';
 
 const SortButton = (props) => {
     return (
-      <div>
+      <div class="buttonContainer">
         <button class="sortButton" onClick={props.clicked}>{props.item}</button>
       </div>
     )

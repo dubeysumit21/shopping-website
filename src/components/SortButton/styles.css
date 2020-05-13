@@ -1,6 +1,6 @@
 .sortButton{
     margin-top: 10px;
-    width: 100%;
+    width: 50%;
     font-family: sans-serif;
     font-size: 15px;
     height: 40px;
@@ -8,6 +8,14 @@
     border: 1px solid #CFD1D1;
     border-radius: 9px;
   }
+
+  .buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .sortButton:Hover{
     color: white;
     background-color: #012323;

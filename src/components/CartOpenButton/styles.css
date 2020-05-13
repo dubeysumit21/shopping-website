@@ -1,14 +1,14 @@
 .CartButton {
     padding: 10;
     font-size: 20px;
-    background-color: white;
+    background-color: transparent;
     border: 0px solid white;
-    position: absolute;
-    float: right;
+    /* position: absolute; */
+    /* float: right; */
     justify-content: center;
     align-items: center;
-    right: 10px;
-    top: 21px;
+    /* right: 10px; */
+    /* top: 21px; */
     /* top: 30%;  */
     cursor: pointer;
 }

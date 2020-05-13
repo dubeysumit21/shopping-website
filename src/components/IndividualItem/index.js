@@ -16,17 +16,19 @@ class IndividualItem extends React.Component {
 
   render() {
     const availability = this.props.size.map((x) => <SizesAvailable available={x} />);
-    const { gallerySetter, display, heartSelected, heartChangeHandler, itemSetter } = this.props;
+    const { wholeItem, gallerySetter, display, heartSelected, heartChangeHandler, itemSetter, productPageHandler } = this.props;
     return (
       <div>
-        {display ? <div class="item">
+        {display ? <div onClick={() => productPageHandler(wholeItem)} class="item">
           <div onClick={() => heartChangeHandler(this.props.id)} style={{ width: '100%', display: 'flex', justifyContent: 'flex-end' }}>
             {heartSelected ? <img style={{ width: '25px', height: '25px' }} src={FillHeart} alt="unloadedImage"></img> : <img style={{ width: '25px', height: '25px' }} src={EmptyHeart} alt="unloadedImage"></img>}
           </div>
           <img class="img animate__animated animate__zoomIn" src={this.props.item} alt="unloadedImage"></img>
           <p class="p1">{this.props.name}</p>
-          <p class='p1'>₹ (INR) {this.props.price}</p>
-          {/* <div class="sizesAvailable-container">{availability}</div> */}
+          <div class="priceSizeContainer">
+            <p class='p1'>₹ (INR) {this.props.price}</p>
+            <div class="sizesAvailable-container">{availability}</div>
+          </div>
           <div class="sizesAvailable-container"><Stars count={3} /></div>
           <div class="buttonHolder">
             <button class="cartCancelBtn" onClick={() => gallerySetter(this.props.id)}>VIEW GALLERY</button>

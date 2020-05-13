@@ -60,6 +60,12 @@
     margin-right: 10px;
   }
 
+  .priceSizeContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
   .btn{
     display: block;
     width: 180px;

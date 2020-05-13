@@ -1,0 +1,194 @@
+.checkout-btn{
+    float: right;
+    margin-bottom: 5%;
+    margin-right: 6%;
+}
+
+.cartModal{
+    overflow: scroll;
+    background-color: white;
+    width: 80%;
+    height: 90%;
+    z-index: 3;
+    box-shadow: 2px 5px 15px 0;
+}
+
+.cartHeader{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #012323;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.closeImage{
+    width: 35px;
+    height: 35px;
+    float: right;
+    padding-right: 8px;
+}
+
+.product_itemDetailsHolder{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.product_itemDetails{
+    padding-left: 20px;
+    width: 70%;
+}
+
+.product_starImage{
+    width: 15px;
+    height: 15px;
+}
+
+.product_starHolder{
+    background-color: seagreen;
+    width: 50px;
+    height: 25px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product_itemName{
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+.product_itemPrice{
+    font-size: 30px;
+    margin-top: 28px;
+}
+
+.product_deliveryItem{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product_sizeAvailable{
+    border: 1px solid #A4A4A450;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+    padding: 5px;
+    width: 30%;
+}
+
+.prouct_mainContainer{
+    width: 100%;
+}
+
+.product_description{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.product_descriptionCol1{
+    width: 30%;
+    padding-left: 25px;
+    color: #4A4A4A;
+    border-right-width: 1px;
+}
+
+.product_descriptionCol2{
+    padding-left: 30px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_labelText{
+    font-size: 12px;
+    color: #A4A4A4;
+}
+
+.product_spec{
+    width: 20%;
+    background-color: slateblue;
+}
+
+.product_priceCode{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product_pinCodeBox{
+    border: 1px solid #A4A4A450;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.product_imageHolder{
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    width: 22%;
+    justify-content: center;
+    border: 1px solid #A4A4A450;
+    border-radius: 3px;
+    align-items: center;
+}
+
+.heartImage{
+    width: 25px;
+    height: 25px;
+    align-self: flex-end;
+}
+
+.itemImage{
+    width: 310px;
+    height: 420px;
+}
+
+.emptyCartConatiner{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartLabel{
+    padding-left: 10px;
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.animate__animated.animate__zoomIn{
+    --animate-duration: 0.4s;
+}
+
+.closeImage:hover{
+    cursor: pointer;
+}
+
+.backdrop{
+    display: flex;
+    background-color: #00000070;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
